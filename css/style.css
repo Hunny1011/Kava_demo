@@ -1,0 +1,399 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.lgrey{
+    background-color: rgb(240, 240, 240);
+}
+
+.commonpadding{
+    padding: 50px 0px;
+}
+
+ul {list-style-type: none;}
+
+a {text-decoration: none;}
+
+h1{
+    letter-spacing: 2px;
+    font-size: 52px;
+}
+
+.heading1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.heading2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.heading3{
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.head{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* ------------------------------header-------------------------------- */
+
+.navbar img{
+    max-width: 70px;
+}
+
+header .dropdown-item{
+    color: rgb(0, 128, 255);
+}
+
+header .dropdown-item:hover{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+
+.navbar li:nth-child(7) > a{
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 255);
+    display: inline-block;
+}
+
+.navbar li:nth-child(7) > a:hover{
+    outline: 2px solid rgb(0, 128, 255);
+    background-color: rgb(240, 240, 240);
+}
+/* ------------------------------- frontimage ------------------------------- */
+
+.frontimage{
+    width: 100%;
+    position: relative;
+}
+
+.frontimage img{
+    width: 100%;
+}
+
+.frontimage .item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(16, 31, 46, 0.575);
+    width: 100%;
+}
+
+.frontimage .con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.frontimage .con p {
+    padding: 20px 0px;
+}
+
+.frontimage .con a{
+    color: white;
+    background-color: rgb(0, 128, 255);
+    padding: 8px 18px;
+    display: table;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: all .25s;
+}
+
+.frontimage .con a:hover{
+    letter-spacing: 2px;
+    outline: 2px solid white;
+    background: none;
+    color: white;
+}
+
+.frontimage .owl-dots {
+    position: absolute;
+    transform: translate(-50%, -75%);
+    top: 75%;
+    left: 50%;
+}
+/* ------------------------------- 1 start improving part ------------------------------- */
+
+.first .card-body i{
+    color: rgb(0, 128, 255);
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.first .card-body h3{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.first .card-body{
+    padding: 40px 10px;
+}
+
+.first .card{
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.548);
+    margin: 20px 0px;
+    position: relative;
+    z-index: 1;
+    margin-top: -100px;
+}
+
+.first h4{
+    margin-bottom: 20px;
+}
+
+.first .content i{
+    color: rgb(0, 128, 255);
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+
+/* ------------------------------- 2 about us part ------------------------------- */
+
+.second .bluetick i{
+    color: rgb(0, 128, 255);
+    margin-right: 10px;
+}
+
+.second .bluetick {
+    padding-top: 10px;
+}
+
+.second .bluetick li{
+    padding-top: 8px;
+    font-weight: 600;
+}
+
+.second img{
+    width: 100%;
+}
+
+.second .part{
+    padding: 15px;
+}
+/* ------------------------------- 3 still have part ------------------------------- */
+.third {
+    color: white;
+    background-image: linear-gradient(rgba(0, 92, 230, 0.685), rgba(0, 92, 230, 0.685)), url(../img/blu.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.third h2 {line-height: 40px;}
+
+.third p{
+    padding: 5px 0px;
+}
+
+.third h2 i{
+    padding: 0px 5px;
+}
+
+.third a i{
+    padding-right: 5px;
+}
+
+.third a{
+    color: black;
+    background-color: white;
+    padding: 8px 25px;
+    display: table;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all .25s;
+}
+
+.third a:hover{
+    letter-spacing: 2px;
+    outline: 2px solid white;
+    background: none;
+    color: white;
+}
+/* ------------------------------- 4 our prising part ------------------------------- */
+
+.forth .card{
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px rgba(63, 63, 63, 0.548);
+    margin-bottom: 20px;
+    padding: 40px 0px 20px 0px;
+}
+
+.forth .middle{
+    padding: 25px 0px;
+    line-height: 35px;
+}
+
+.forth aside{
+    color: rgb(0, 128, 255);
+    font-size: 40px;
+    padding: 10px 0px;
+}
+
+.forth sup{
+    color: rgb(0, 128, 255);
+    font-size: 30px;
+}
+
+.forth sub{
+    color: black;
+    font-size: 15px;
+}
+
+.forth li i{
+    color: rgb(0, 128, 255);
+    margin-right: 10px;
+}
+
+.forth a{
+    padding: 8px 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 255);
+    font-size: 14px;
+    margin: 15px 0px;
+    display: inline-block;
+    transition: all .25s;
+}
+
+.forth a:hover{
+    letter-spacing: 2px;
+    outline: 2px solid rgb(0, 128, 255);;
+    background: none;
+    color: rgb(0, 128, 255);;
+}
+/* ------------------------------- 5 corporates part ------------------------------- */
+.fifth{
+    color: white;
+    background-image: linear-gradient(rgba(12, 23, 39, 0.815), rgba(12, 23, 39, 0.815)), url(../img/corporates_bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.fifth img{
+    width: 100%;
+}
+
+.fifth a{
+    padding: 7px 32px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 128, 255);
+    font-size: 14px;
+    display: inline-block;
+    transition: all .25s;
+}
+
+.fifth a:hover{
+    letter-spacing: 2px;
+    outline: 2px solid white;
+    background: none;
+    color: white;
+}
+
+.fifth .part{
+    padding: 10px;
+}
+/* ------------------------------- 6 our team part ------------------------------- */
+.sixth img{
+    width: 100%;
+    padding: 10px;
+}
+
+.sixth img:hover{
+    box-shadow: 0px 0px 10px 1px rgba(63, 63, 63, 0.548);
+}
+
+.sixth dd{
+    color: rgb(0, 128, 255);
+    font-size: 14px;
+}
+
+.sixth h4{
+    padding-top: 20px;
+}
+
+.sixth .part{
+    padding: 0px 20px;
+}
+
+/* ------------------------------- 7 testimonials part ------------------------------- */
+.seventh aside{
+    color: rgb(0, 128, 255);
+}
+
+.seventh .card{
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 1px rgba(63, 63, 63, 0.548);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+/* ------------------------------- 8 get in touch part ------------------------------- */
+.eighth{
+    color: white;
+    background-image: linear-gradient(rgba(12, 23, 39, 0.815), rgba(12, 23, 39, 0.815)), url(../img/getintouch.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.eighth p{
+    color: rgb(0, 128, 255);
+}
+
+.eighth a::after{
+    content: "\A";
+    white-space: pre;
+}
+
+.eighth a{
+    color: white;
+}
+
+.eighth a:hover{
+    color: rgb(0, 128, 255);
+}
+
+.eighth i{
+    color: rgb(0, 128, 255);
+    padding: 13px;
+    font-size: 20px;
+    border: 2px solid rgb(0, 128, 255);
+    height: 50px;
+    width: 50px;
+}
+
+.eighth aside{
+    padding: 15px 0px 5px 0px;
+    font-size: 19px;
+}
+/* ------------------------------- footer part ------------------------------- */
+footer a{
+    padding: 0px 5px;
+}
